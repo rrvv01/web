@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> <!-- 문서의 문자 인코딩을 설정합니다. UTF-8은 유니코드 문자를 지원하는 인코딩 방식입니다. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- 모바일 장치와 데스크톱 화면에 최적화된 뷰포트 설정 -->
+    <title>웹프로그래밍 데모</title> <!-- 문서의 제목을 설정합니다. -->
+    <link rel="stylesheet" href="style.css" /> <!-- 외부 스타일 시트인 "style.css"를 연결합니다. -->
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div> <!-- 웹사이트 로고를 표시하는 부분 -->
+        <ul class="nav"> <!-- 네비게이션 메뉴 목록 -->
+          <li>
+            <a href="index.html">Home</a> <!-- "index.html"로 이동하는 홈 메뉴 -->
+          </li>
+          <li>
+            <a href="index.html">About</a> <!-- "index.html"로 이동하는 소개 메뉴 -->
+          </li>
+          <li>
+            <a href="index.html">Contact</a> <!-- "index.html"로 이동하는 연락 메뉴 -->
+          </li>
+          <li>
+            <a href="index.html">Project</a> <!-- "index.html"로 이동하는 프로젝트 메뉴 -->
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인섹션 -->
+    <section class="main"></section> <!-- 메인 섹션을 나타내는 요소 -->
+      <div class="container"></div> <!-- 컨테이너 요소 -->
+        <h1>웹프로그래밍. webProgramming.<h1> <!-- 웹프로그래밍 제목 -->
+        
+        <h3> 웹 개발자를 위한 온라인 메뉴얼: 
+          <a href="https://www.w3schools.com/">W3Schools</a> <!-- W3Schools로 이동하는 링크 -->
+        </h3>
+
+        <p>
+          웹 프로그래밍의 3가지 요소 :
+          <a href="https://www.w3schools.com/css/default.asp">CS35</a> <!-- CSS 링크 -->
+          <a href="https://www.w3schools.com/js/default.asp">Javascript</a> <!-- JavaScript 링크 -->
+          <a href="https://www.w3schools.com/html/default.asp">HTML5</a> <!-- HTML 링크 -->
+        </p>
+
+        <h3>현재시간: <span id="time"></span></h3> <!-- 현재 시간을 표시하는 부분 -->
+
+        <hr /> <!-- 수평 라인 (구분선) -->
+
+        <p>
+          배경색 바꾸기:
+          <button onclick="pink()">Pink</button> <!-- "pink()" 함수를 호출하는 버튼 -->
+          <button onclick="lightblue()">Lightblue</button> <!-- "lightblue()" 함수를 호출하는 버튼 -->
+          <button onclick="yellow()">Yellow</button> <!-- "yellow()" 함수를 호출하는 버튼 -->
+          <button onclick="reset()">Reset</button> <!-- "reset()" 함수를 호출하는 버튼 -->
+        </p>
+        
+        배워봅시다:
+        <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button> <!-- "showhtml()" 함수를 호출하는 버튼 -->
+        <button onmouseover="showcss()" onmouseout="hide()">CSS3</button> <!-- "showcss()" 함수를 호출하는 버튼 -->
+        <button onmouseover="showjs()" onmouseout="hide()">Javascript</button> <!-- "showjs()" 함수를 호출하는 버튼 -->
+
+        </p>
+
+        <hr/> <!-- 수평 라인 (구분선) -->
+
+        <br/> <!-- 줄바꿈 -->
+
+        <div>
+          <img id="fig" height="200px" /> <!-- 이미지 표시를 위한 요소 -->
+          <p id="desc"></p> <!-- 이미지 설명을 표시하는 부분 -->
+
+    <script src="main.js"></script> <!-- JavaScript 파일 "main.js"를 로드합니다. -->
+  </body>
+</html>
+
